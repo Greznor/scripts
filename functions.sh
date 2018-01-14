@@ -536,6 +536,8 @@ else
     [[ $? -ne 0 && "$isBraswell" = false ]] && wpEnabled=true
 fi
 
+wpEnabled=false
+
 return 0
 }
 
